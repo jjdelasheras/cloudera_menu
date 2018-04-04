@@ -1,0 +1,31 @@
+{   
+        "privileges": {
+                "admin": ["lab_admin"],
+                "dev": ["lab_dev"],
+                "operator": ["lab_operator"]
+        },
+        "environment": {
+                "PRE": {},
+                "PRO": {
+                        "CM1": {
+                                "cm_host": "CM_HOSTNAME",
+                                "cm_port": "",
+                                "cm_user": "CM_USER",
+                                "cm_pass": "CM_PASS",
+                                "cm_vers": API_VERSION,
+                                "cm_tls": false,
+                                "clusters": ["cluster 1", "cluster 2" ]
+                        },
+                        "CM2": {
+                                "cm_host": "CM_HOSTNAME",
+                                "cm_port": "",
+                                "cm_user": "CM_USER",
+                                "cm_pass": "CM_PASS",
+                                "cm_vers": API_VERSION,
+                                "cm_tls": false,
+                                "clusters": ["cluster 1", "cluster 2" ]
+			}
+                }
+        }
+}
+
